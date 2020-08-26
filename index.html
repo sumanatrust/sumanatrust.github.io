@@ -5,7 +5,21 @@
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-<h1>HOME</h1>
-<p>Welcome to the sumana trust website!<br>Learn about the sumana trust here<br>ADD MORE CONTENT</p>
+<div>
+<header>
+  <button  id="home-btn" onclick="homeredirect()">
+    <span><img src="Content/icon.jpeg"id="resize"/><span id="home-text">Sumana Trust</span></span>
+    <script>
+    function homeredirect(){
+      location.href = 'index.html'
+    }
+    //document.getElementById('home-btn').onclick = redirect('index.html')*/
+    </script>
+  </button>
+</header>
+</div>
+<div id="home">
+<h1>What is the Sumana Trust</h1>
+</div>
 </body>
 </html>
