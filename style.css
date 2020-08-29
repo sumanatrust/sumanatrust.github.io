@@ -42,3 +42,7 @@ header {
   width: 50px;
   border-radius: 50%;
 }
+
+#link-blog {
+  padding-left: 50px;
+}
