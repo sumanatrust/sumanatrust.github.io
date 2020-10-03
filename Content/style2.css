@@ -1,0 +1,9 @@
+/* style2.css - styles used by team2 */
+
+--dark-sienna: #3c0919ff;
+--middle-red: #e2856eff;
+--red-crayola: #ff0054ff;
+
+header {
+  background-color: var(--middle-red);
+}
