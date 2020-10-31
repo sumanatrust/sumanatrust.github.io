@@ -12,18 +12,22 @@ body {
   --dark-sienna: #3c0919;
   --middle-red2: #e2856e;
   --red-crayola: #ff0054;
+  display: block;
+  padding-top: 70px;
 }
 
-header {
-    padding: 10px;
-    position: relative;
-    font-size: 1.4em;
-    background-color: wheat;
+.st-navbar {
+  background-color: wheat;
+  font-size: 1.4em;
+}
+
+#base {
+  margin-top: 80px;
 }
 
 #logo {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
 }
 
 #aboutus {
