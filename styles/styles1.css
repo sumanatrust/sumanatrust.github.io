@@ -4,26 +4,24 @@
   --dark-sienna: #3c0919;
   --middle-orange: #303080;
   --red-crayola: #ff0054;
+
+  --main-color: var(--red-crayola);
+  --main-background: rose;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 body {
   font-family: Balsamiq Sans;
-  --dark-sienna: #3c0919;
-  --middle-red2: #e2856e;
-  --red-crayola: #ff0054;
-  display: block;
   padding-top: 70px;
+  background-color: var(--cyan);
+  color: var(--black);
 }
 
 .st-navbar {
-  background-color: wheat;
   font-size: 1.4em;
+  margin-bottom: 50px;
 }
 
-#base {
-  margin-top: 80px;
-}
 
 #logo {
   width: 40px;
