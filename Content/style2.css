@@ -1,0 +1,10 @@
+/* style2.css - styles used by team2 */
+body {
+--dark-sienna: #3c0919;
+--middle-red: #e2856e;
+--red-crayola: #ff0054;
+}
+
+header {
+  background-color:  #e2856e;
+}
