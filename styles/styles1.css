@@ -1,0 +1,32 @@
+# Empty CSS file for your own CSS
+
+:root {
+  --dark-sienna: #3c0919;
+  --middle-orange: #303080;
+  --red-crayola: #ff0054;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+body {
+  font-family: Balsamiq Sans;
+  --dark-sienna: #3c0919;
+  --middle-red2: #e2856e;
+  --red-crayola: #ff0054;
+}
+
+header {
+    padding: 10px;
+    position: relative;
+    font-size: 1.4em;
+    background-color: wheat;
+}
+
+#logo {
+  width: 60px;
+  height: 60px;
+}
+
+#aboutus {
+  background-color: wheat;
+  padding: 50px 10px 50px 10px;
+}
