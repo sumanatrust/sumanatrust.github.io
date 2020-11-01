@@ -1,38 +1,70 @@
-# Empty CSS file for your own CSS
-
 :root {
   --dark-sienna: #3c0919;
-  --middle-orange: #303080;
-  --red-crayola: #ff0054;
+  --middle-orange: #E88873;
+  --red-crayola: #F4F2B8;
 
   --main-color: var(--red-crayola);
   --main-background: rose;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
 body {
   font-family: Balsamiq Sans;
-  padding-top: 70px;
-  background-color: var(--cyan);
+  background-color: var(--dark-sienna);
   color: var(--black);
+}
+
+.container2 {
+  z-index: 0;
+  padding-top: 100px;
 }
 
 .st-navbar {
   font-size: 1.4em;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
+  border-radius: 0px 0px 10px 10px;
 }
 
 #logo {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
 }
 
 #logo-big {
   width: 150px;
   height: 150px;
+  border-radius: 100%;
 }
 
+#base {
+  background-color: var(--middle-orange);
+  /* padding: 50px 10px 50px 10px; */
+}
+
+
 #aboutus {
-  background-color: wheat;
+  background-color: var(--middle-orange);
   padding: 50px 10px 50px 10px;
+}
+
+#events {
+  background-color: var(--middle-orange);
+  /* padding: 50px 10px 50px 10px; */
+}
+
+#donate {
+  background-color: var(--middle-orange);
+  /* padding: 50px 10px 50px 10px; */
+}
+
+#boardOfDirectors {
+  background-color: var(--middle-orange);
+  /* padding: 50px 10px 50px 10px; */
+}
+
+#contactus {
+  background-color: var(--middle-orange);
+  /* padding: 50px 10px 50px 10px; */
 }
