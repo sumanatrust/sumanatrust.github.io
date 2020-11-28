@@ -1,18 +1,23 @@
-# Empty CSS file for your own CSS
-
 @import
-url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap');
+url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
 body {
-  font-family: Balsamiq Sans;
+  font-family: 'Baloo 2';
+  color: #FFF9EB;
+  font-size: 1.3em;
 }
 
 #logo {
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
+}
+
+a {
+  color: #FFDF00;
+  font-weight: 1000;
 }
 
 .footer {
-  background-color: silver;
+  background-color: #B80900;
   margin: 0 auto;
   padding: 20 0 10;
   box-sizing: border-box;
@@ -30,4 +35,12 @@ body {
   flex-wrap: wrap;
   margin-left: -15px;
   margin-right: -15px;
+}
+
+.jumbotron {
+  background-color: #ff645c;
+}
+
+.nav-link {
+  color: #701c1c;
 }
