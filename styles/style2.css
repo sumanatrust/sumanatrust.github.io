@@ -1,21 +1,34 @@
-# Empty CSS file for your own CSS
+:root {
+  --body-color: #FFF9EB;
+  --anchor-color: #FFDF00;
+  --footer-color: #B80900;
+  --box-color: #ff645c;
+  --nav-link-color: #701c1c;
+}
 
-@import
-url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap');
+
 body {
-  font-family: Balsamiq Sans;
+  font-family: 'Baloo 2';
+  color: var(--body-color);
+  font-size: 1.3em;
 }
 
 #logo {
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
+}
+
+a {
+  color: var(--anchor-color);
+  font-weight: 1000;
 }
 
 .footer {
-  background-color: silver;
+  background-color: var(--footer-color);
   margin: 0 auto;
   padding: 20 0 10;
   box-sizing: border-box;
+  font-size: 0.7em;
 }
 
 .container {
@@ -30,4 +43,12 @@ body {
   flex-wrap: wrap;
   margin-left: -15px;
   margin-right: -15px;
+}
+
+.jumbotron {
+  background-color: var(--box-color);
+}
+
+.nav-link {
+  color: var(--nav-link-color);
 }
