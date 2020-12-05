@@ -1,5 +1,17 @@
-@import
-url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+:root {
+  /* CSS HEX */
+--independence: #555b6eff;
+--morning-blue: #89b0aeff;
+--powder-blue: #bee3dbff;
+--cultured: #faf9f9ff;
+--apricot: #ffd6baff;
+}
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
 body {
   font-family: 'Baloo 2';
   color: #FFF9EB;
