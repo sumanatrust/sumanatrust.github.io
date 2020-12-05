@@ -1,18 +1,23 @@
 :root {/* CSS HEX */
---independence: #555b6eff;
---morning-blue: #89b0aeff;
---powder-blue: #bee3dbff;
---cultured: #faf9f9ff;
---apricot: #ffd6baff;
+--independence: #555b6e;
+--morning-blue: #89b0ae;
+--powder-blue: #bee3db;
+--cultured: #faf9f9;
+--apricot: #ffd6ba;
 
 
 
 
-  --body-color: #FFF9EB;
+  --body-color1: #FFF9EB;
   --anchor-color: #FFDF00;
   --footer-color: #B80900;
-  --box-color: #ff645c;
+  --box-color1: #ff645c;
   --nav-link-color: #701c1c;
+
+   --body-color: var(--cultured);
+--box-color: var(--independence);
+--footer-color: var(--powder-blue);
+--anchor-color: var(--nav-link-color);
 }
 body {
   font-family: 'Baloo 2';
