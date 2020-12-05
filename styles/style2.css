@@ -1,20 +1,22 @@
-:root {
-  /* CSS HEX */
+:root {/* CSS HEX */
 --independence: #555b6eff;
 --morning-blue: #89b0aeff;
 --powder-blue: #bee3dbff;
 --cultured: #faf9f9ff;
 --apricot: #ffd6baff;
+
+
+
+
+  --body-color: #FFF9EB;
+  --anchor-color: #FFDF00;
+  --footer-color: #B80900;
+  --box-color: #ff645c;
+  --nav-link-color: #701c1c;
 }
-
-
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
 body {
   font-family: 'Baloo 2';
-  color: #FFF9EB;
+  color: var(--body-color);
   font-size: 1.3em;
 }
 
@@ -24,15 +26,16 @@ body {
 }
 
 a {
-  color: #FFDF00;
+  color: var(--anchor-color);
   font-weight: 1000;
 }
 
 .footer {
-  background-color: #B80900;
+  background-color: var(--footer-color);
   margin: 0 auto;
   padding: 20 0 10;
   box-sizing: border-box;
+  font-size: 0.7em;
 }
 
 .container {
@@ -50,9 +53,9 @@ a {
 }
 
 .jumbotron {
-  background-color: #ff645c;
+  background-color: var(--box-color);
 }
 
 .nav-link {
-  color: #701c1c;
+  color: var(--nav-link-color);
 }
